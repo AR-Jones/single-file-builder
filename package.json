@@ -9,7 +9,6 @@
   "scripts": {
     "build": "node build.js",
     "build:bash": "chmod +x build.sh && ./build.sh",
-    "dev": "echo 'Use a local server like: python -m http.server 8000'",
     "prepublishOnly": "npm run build"
   },
   "files": [
@@ -32,10 +31,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/single-file-builder.git"
+    "url": "git+https://github.com/AR-Jones/single-file-builder"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/single-file-builder/issues"
+    "url": "https://github.com/AR-Jones/single-file-builder/issues"
   },
-  "homepage": "https://github.com/yourusername/single-file-builder#readme"
+  "homepage": "https://github.com/AR-Jones/single-file-builder#readme"
 }
