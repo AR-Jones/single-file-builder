@@ -1,0 +1,41 @@
+{
+  "name": "single-file-builder",
+  "version": "1.0.0",
+  "description": "Build tool to combine multiple JS/CSS files into a single HTML file",
+  "main": "build.js",
+  "bin": {
+    "single-file-builder": "./cli.js"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "build:bash": "chmod +x build.sh && ./build.sh",
+    "dev": "echo 'Use a local server like: python -m http.server 8000'",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "build.js",
+    "cli.js",
+    "README.md"
+  ],
+  "devDependencies": {},
+  "keywords": [
+    "build",
+    "single",
+    "file",
+    "html",
+    "css",
+    "javascript",
+    "inline",
+    "bundle"
+  ],
+  "author": "A.R. Jones",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/single-file-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/single-file-builder/issues"
+  },
+  "homepage": "https://github.com/yourusername/single-file-builder#readme"
+}
