@@ -1,6 +1,6 @@
 {
   "name": "single-file-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Build tool to combine multiple JS/CSS files into a single HTML file",
   "main": "build.js",
   "bin": {
